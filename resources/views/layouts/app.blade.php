@@ -14,17 +14,56 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
 
     {{-- flaticon --}}
-    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/3.0.0/uicons-regular-rounded/css/uicons-regular-rounded.css'>
-    <link rel='stylesheet' href='https://cdn-uicons.flaticon.com/3.0.0/uicons-solid-rounded/css/uicons-solid-rounded.css'>
+    <link rel='stylesheet'
+        href='https://cdn-uicons.flaticon.com/3.0.0/uicons-regular-rounded/css/uicons-regular-rounded.css'>
+    <link rel='stylesheet'
+        href='https://cdn-uicons.flaticon.com/3.0.0/uicons-solid-rounded/css/uicons-solid-rounded.css'>
 
     {{-- Datatable --}}
     <link rel="stylesheet" href="https://cdn.datatables.net/1.13.6/css/jquery.dataTables.min.css">
+
+    {{-- select 2 --}}
+    <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
 
     <!-- Scripts -->
     @vite(['resources/css/app.css', 'resources/js/app.js'])
     <style>
         body {
             font-family: 'Poppins', sans-serif;
+        }
+
+        .select2-container .select2-selection--single {
+            width: 100% !important;
+            background-color: #f9fafb;
+            border: 1px solid #d1d5db !important;
+            padding: 0.5rem 0.75rem;
+            font-size: 0.875rem;
+            height: 43px;
+            border-radius: 0.4rem;
+            color: #1f2937;
+        }
+
+        .select2-container .select2-selection--single .select2-selection__arrow {
+            top: 20% !important;
+            right: 8px;
+        }
+
+        .select2-container .select2-selection--single .select2-selection__rendered {
+            font-size: 14px !important;
+            top: -2px;
+            left: -6px;
+            position: relative;
+            color: #1f2937;
+        }
+
+        .select2-search__field {
+            font-size: 14px !important;
+            border-radius: 0.5rem;
+        }
+
+        .select2-results {
+            font-size: 14px !important;
+            border-radius: 0px 10px 0px 10px;
         }
     </style>
 </head>

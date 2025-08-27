@@ -6,7 +6,7 @@
                 <!-- Logo -->
                 <div class="shrink-0 flex items-center">
                     <a href="{{ route('dashboard') }}">
-                        <x-application-logo class="block h-9 w-auto fill-current text-gray-800 dark:text-gray-200" />
+                        <img src="{{asset('img/mkp.png')}}" class="h-9 w-auto">
                     </a>
                 </div>
 
@@ -28,6 +28,20 @@
                 <div class="hidden space-x-8 sm:-my-px sm:ms-10 sm:flex">
                     <x-nav-link :href="route('tabungan.index')" :active="request()->routeIs('tabungan.index')">
                         {{ __('Tabungan') }}
+                    </x-nav-link>
+                </div>
+
+                <!-- Navigation Links -->
+                <div class="hidden space-x-8 sm:-my-px sm:ms-10 sm:flex">
+                    <x-nav-link :href="route('menabung.index')" :active="request()->routeIs('menabung.index')">
+                        {{ __('Menabung') }}
+                    </x-nav-link>
+                </div>
+
+                <!-- Navigation Links -->
+                <div class="hidden space-x-8 sm:-my-px sm:ms-10 sm:flex">
+                    <x-nav-link :href="route('peminjaman.index')" :active="request()->routeIs('peminjaman.index')">
+                        {{ __('Peminjaman') }}
                     </x-nav-link>
                 </div>
             </div>

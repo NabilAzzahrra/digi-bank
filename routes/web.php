@@ -1,6 +1,8 @@
 <?php
 
+use App\Http\Controllers\MenabungController;
 use App\Http\Controllers\NasabahController;
+use App\Http\Controllers\PeminjamanController;
 use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\TabunganController;
 use Illuminate\Support\Facades\Route;
@@ -20,6 +22,8 @@ Route::middleware('auth')->group(function () {
     Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
     Route::resource('nasabah', NasabahController::class);
     Route::resource('tabungan', TabunganController::class);
+    Route::resource('menabung', MenabungController::class);
+    Route::resource('peminjaman', PeminjamanController::class);
 });
 
 require __DIR__.'/auth.php';
