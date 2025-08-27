@@ -1,7 +1,7 @@
 <x-app-layout>
     <x-slot name="header">
         <h2 class="font-semibold text-xl text-gray-800 dark:text-gray-200 leading-tight">
-            {{ __('Menabung') }}
+            {{ __('Transfer') }}
         </h2>
     </x-slot>
 
@@ -9,7 +9,7 @@
         <div class="max-w-2xl mx-auto sm:px-6 lg:px-8">
             <div class="bg-amber-50 border border-amber-500 dark:bg-gray-800 overflow-hidden shadow-sm sm:rounded-xl">
                 <div class="p-4 text-gray-900 dark:text-gray-100">
-                    Form Input <span class="text-amber-500 font-bold">Tabungan</span>
+                    Form Input <span class="text-amber-500 font-bold">Transfer</span>
                 </div>
             </div>
             <div class="flex mt-6 gap-5">

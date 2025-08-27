@@ -1,7 +1,7 @@
 <x-app-layout>
     <x-slot name="header">
         <h2 class="font-semibold text-xl text-gray-800 dark:text-gray-200 leading-tight">
-            {{ __('Transfer') }}
+            {{ __('Transaksi Keseluruhan') }}
         </h2>
     </x-slot>
 
@@ -11,51 +11,56 @@
                 <div
                     class="bg-amber-50 border border-amber-500 dark:bg-gray-800 overflow-hidden shadow-sm sm:rounded-xl w-full">
                     <div class="p-4 text-gray-900 dark:text-gray-100">
-                        Data <span class="text-amber-500 font-bold">Transfer</span> di Digibank Politeknik LP3I Kampus
+                        Data <span class="text-amber-500 font-bold">Transaksi Keseluruhan</span> di Digibank Politeknik LP3I Kampus
                         Tasikmalaya
                     </div>
                 </div>
-                <a href="{{route('transfer.create')}}" class="bg-sky-100 text-sky-500 text-xl border border-sky-500 dark:bg-gray-800 overflow-hidden shadow-sm pt-2 sm:rounded-xl flex items-center justify-center w-20">
-                    <i class="fi fi-sr-multiple"></i>
-                </a>
             </div>
             <div class="flex mt-6 gap-5">
                 <div class="bg-white p-4 border border-gray-200 rounded-xl w-full">
                     <table id="myTable" class="display">
                         <thead>
                             <tr>
-                                <th>NOMOR REKENING</th>
-                                <th>NAMA NASABAH</th>
-                                <th>JENIS TABUNGAN</th>
-                                <th>NO REKENING TUJUAN</th>
-                                <th>JUMLAH</th>
+                                <th>NO</th>
                                 <th>TANGGAL</th>
+                                <th>KREDIT</th>
+                                <th>DEBIT</th>
+                                <th>SALDO</th>
                             </tr>
                         </thead>
                         <tbody>
                             <tr>
-                                <td>3279044906020001</td>
-                                <td>Nabila Azzahra</td>
-                                <td>umum</td>
-                                <td>3279044906020002</td>
-                                <td>3.000.000</td>
+                                <td>1</td>
                                 <td>27-08-2025</td>
+                                <td>1.000.000</td>
+                                <td>0</td>
+                                <td>1.000.000</td>
                             </tr>
+
                             <tr>
-                                <td>3279044906020002</td>
-                                <td>Budi Santoso</td>
-                                <td>umum</td>
-                                <td>3279044906020001</td>
-                                <td>5.000.000</td>
+                                <td>2</td>
                                 <td>27-08-2025</td>
+                                <td>0</td>
+                                <td>1.000.000</td>
+                                <td>0</td>
+                            </tr>
+
+                            <tr>
+                                <td>3</td>
+                                <td>27-08-2025</td>
+                                <td>500.000</td>
+                                <td>0</td>
+                                <td>500.000</td>
+                            </tr>
+
+                            <tr>
+                                <td>4</td>
+                                <td>27-08-2025</td>
+                                <td>3.000.000</td>
+                                <td>0</td>
+                                <td>3.500.000</td>
                             </tr>
                         </tbody>
-                        <tfoot>
-                            <tr>
-                                <td colspan="4" class="font-bold bg-amber-50">Total</td>
-                                <td colspan="2" class="font-bold bg-amber-50">8.000.000</td>
-                            </tr>
-                        </tfoot>
                     </table>
                 </div>
             </div>

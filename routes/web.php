@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\KeseluruhanController;
 use App\Http\Controllers\MenabungController;
 use App\Http\Controllers\NasabahController;
 use App\Http\Controllers\PeminjamanController;
@@ -26,6 +27,7 @@ Route::middleware('auth')->group(function () {
     Route::resource('menabung', MenabungController::class);
     Route::resource('peminjaman', PeminjamanController::class);
     Route::resource('transfer', TransferController::class);
+    Route::resource('keseluruhan', KeseluruhanController::class);
 });
 
 require __DIR__.'/auth.php';
