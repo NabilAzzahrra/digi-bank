@@ -44,6 +44,13 @@
                         {{ __('Peminjaman') }}
                     </x-nav-link>
                 </div>
+
+                <!-- Navigation Links -->
+                <div class="hidden space-x-8 sm:-my-px sm:ms-10 sm:flex">
+                    <x-nav-link :href="route('transfer.index')" :active="request()->routeIs('transfer.index')">
+                        {{ __('Transfer') }}
+                    </x-nav-link>
+                </div>
             </div>
 
             <!-- Settings Dropdown -->

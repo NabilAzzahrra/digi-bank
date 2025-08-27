@@ -11,7 +11,7 @@
                 <div
                     class="bg-amber-50 border border-amber-500 dark:bg-gray-800 overflow-hidden shadow-sm sm:rounded-xl w-full">
                     <div class="p-4 text-gray-900 dark:text-gray-100">
-                        Data <span class="text-amber-500 font-bold">Menabung</span> di Digibank Politeknik LP3I Kampus
+                        Data <span class="text-amber-500 font-bold">Peminjaman</span> di Digibank Politeknik LP3I Kampus
                         Tasikmalaya
                     </div>
                 </div>

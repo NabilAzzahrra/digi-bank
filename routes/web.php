@@ -5,6 +5,7 @@ use App\Http\Controllers\NasabahController;
 use App\Http\Controllers\PeminjamanController;
 use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\TabunganController;
+use App\Http\Controllers\TransferController;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
@@ -24,6 +25,7 @@ Route::middleware('auth')->group(function () {
     Route::resource('tabungan', TabunganController::class);
     Route::resource('menabung', MenabungController::class);
     Route::resource('peminjaman', PeminjamanController::class);
+    Route::resource('transfer', TransferController::class);
 });
 
 require __DIR__.'/auth.php';
