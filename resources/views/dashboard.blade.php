@@ -34,15 +34,15 @@
                                 <i class="fi fi-rr-user mt-1"></i>
                             </div>
                             <div class="font-bold text-gray-500 mt-3">Nasabah</div>
-                            <div class="font-bold text-4xl text-gray-600 text-right px-4">13</div>
+                            <div class="font-bold text-4xl text-gray-600 text-right px-4">50</div>
                         </div>
                         <div class="h-36 bg-white w-full p-4 border border-gray-200 rounded-xl">
                             <div
                                 class="bg-amber-100 p-2 rounded-xl w-10 h-10 flex items-center justify-center text-amber-500">
                                 <i class="fi fi-rr-settings mt-1"></i>
                             </div>
-                            <div class="font-bold text-gray-500 mt-3">Nasabah</div>
-                            <div class="font-bold text-4xl text-gray-600 text-right px-4">13</div>
+                            <div class="font-bold text-gray-500 mt-3">Petugas Admin</div>
+                            <div class="font-bold text-4xl text-gray-600 text-right px-4">1</div>
                         </div>
                     </div>
                 </div>
@@ -63,7 +63,7 @@
                                         dipersiapkan sejak awal untuk membiayai pelaksanaan ujian sehingga mahasiswa tidak perlu lagi mengeluarkan biaya tambahan saat uji
                                         kompetensi berlangsung.</div>
                                 </div>
-                                <div class="text-xl mt-4 font-bold">107</div>
+                                <div class="text-xl mt-4 font-bold">0</div>
                             </div>
                             <div class="flex gap-5 items-start mt-2">
                                 <div
@@ -74,7 +74,7 @@
                                     <div class="font-bold">Kurban</div>
                                     <div class="text-sm text-gray-500">Simpanan yang disiapkan secara khusus untuk nasabah bisa menabung sedikit demi sedikit hingga cukup untuk melaksanakan ibadah kurban saat Idul Adha.</div>
                                 </div>
-                                <div class="text-xl mt-4 font-bold">107</div>
+                                <div class="text-xl mt-4 font-bold">0</div>
                             </div>
                             <div class="flex gap-5 items-start mt-2">
                                 <div
@@ -85,7 +85,7 @@
                                     <div class="font-bold">Umum</div>
                                     <div class="text-sm text-gray-500">Tabungan umum adalah simpanan di bank yang dapat digunakan untuk menabung, menyimpan uang dengan aman, dan memudahkan transaksi sehari-hari seperti setor, tarik, atau transfer.</div>
                                 </div>
-                                <div class="text-xl mt-4 font-bold">504</div>
+                                <div class="text-xl mt-4 font-bold">50</div>
                             </div>
                         </div>
                     </div>
@@ -98,7 +98,7 @@
                                 <i class="fi fi-rr-credit-card mt-1"></i>
                             </div>
                             <div class="font-bold text-gray-500 mt-3">Pembayaran</div>
-                            <div class="font-bold text-md text-gray-600 text-right mt-3">Rp 300.000.000</div>
+                            <div class="font-bold text-md text-gray-600 text-right mt-3">Rp 0</div>
                         </div>
                         <div class="h-36 bg-white w-full p-4 border border-gray-200 rounded-xl">
                             <div
@@ -106,7 +106,7 @@
                                 <i class="fi fi-sr-money-bill-transfer mt-1"></i>
                             </div>
                             <div class="font-bold text-gray-500 mt-3">Transfer</div>
-                            <div class="font-bold text-md text-gray-600 text-right px-4 mt-3">Rp 305.000.000</div>
+                            <div class="font-bold text-md text-gray-600 text-right px-4 mt-3">Rp 0</div>
                         </div>
                     </div>
                     <div class="flex gap-5 mt-4">
@@ -116,7 +116,7 @@
                                 <i class="fi fi-sr-equality mt-1"></i>
                             </div>
                             <div class="font-bold text-gray-500 mt-3">Saldo</div>
-                            <div class="font-bold text-4xl text-gray-600 text-right px-4">Rp 500.000.000</div>
+                            <div class="font-bold text-4xl text-gray-600 text-right px-4">Rp 234.200.000</div>
                         </div>
                     </div>
                 </div>
